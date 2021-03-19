@@ -31,8 +31,8 @@ public class AccountControlerIntegrataionTest {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("{\n" +
                                 "    \"firstName\": \"sample\",\n" +
-                                "    \"lastName\": \"Degife\",\n" +
-                                "    \"email\": \"workuabebeis@gmail.com\",\n" +
+                                "    \"lastName\": \"sample\",\n" +
+                                "    \"email\": \"fedlu@gmail.com\",\n" +
                                 "    \"phoneNumber\": \"+251910108943\",\n" +
                                 "    \"pin\": 1011" +
                                 "}"))
@@ -44,9 +44,9 @@ public class AccountControlerIntegrataionTest {
     public void shouldReturnAnErrorWhenCreatingAccountWithDuplicateData() throws Exception {
 
         String data = "{" +
-                "  \"firstName\": \"Biniam\"," +
-                "  \"lastName\": \"Asnake\"," +
-                "  \"email\" : \"biniamasnake@gmail.com\"," +
+                "  \"firstName\": \"Fedlu   \"," +
+                "  \"lastName\": \"Hussien\"," +
+                "  \"email\" : \"abuesmael@gmail.com\"," +
                 "}";
 
         mvc.perform(
