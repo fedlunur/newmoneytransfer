@@ -1,8 +1,0 @@
-language: java
-jdk:
-   -oraclejdk11
-  script:
-       -"./mvnw clean verify"
-  branches:
-     only:
-       - main
