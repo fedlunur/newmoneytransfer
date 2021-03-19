@@ -30,7 +30,7 @@ public class AccountControlerIntegrataionTest {
                 post("/api/account/create")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("{\n" +
-                                "    \"firstName\": \"Worku\",\n" +
+                                "    \"firstName\": \"sample\",\n" +
                                 "    \"lastName\": \"Degife\",\n" +
                                 "    \"email\": \"workuabebeis@gmail.com\",\n" +
                                 "    \"phoneNumber\": \"+251910108943\",\n" +
